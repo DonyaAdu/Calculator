@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #ffe6f0 0%, #ffffff 50%, #ffe6f0 100%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, Arial, sans-serif;
+}
+
+#container {
+  width: 25vw;
+  max-width: 360px;
+  padding: 2.5vh 2.5vw;
+  background: #fff;
+  border-radius: 1vw;
+  box-shadow: 0 0.6vw 1.5vw rgba(0,0,0,0.15);
+  text-align: left;
+  box-shadow: 0 0 0.52vw rgba(0,0,0,0.25);
+}
+
+#container h2 {
+  color: #ff4d94;
+  margin: 0 0 2vh 0;
+  font-size: 2.6vh;
+  text-align: center;
+}
+
+#container label {
+  display: block;
+  margin-top: 1.6vh;
+  font-weight: 600;
+  color: #555;
+  font-size: 1.6vh;
+}
+
+#container input {
+  width: 90%;
+  display: block;
+  margin: 0.6vh auto;
+  padding: 0.9vh 1vw;
+  height: 4vh;
+  border: 0.12vw solid #e6d0d8;
+  border-radius: 0.8vw;
+  outline: none;
+  font-size: 1.6vh;
+  transition: 0.2s;
+  text-align: center;
+  background: #fff;
+}
+
+#container input:focus {
+  border-color: #ff4d94;
+  box-shadow: 0 0 0.8vh rgba(255,77,148,0.12);
+}
+
+#container button {
+  display: block;
+  width: 92%;
+  margin: 3vh auto 0;
+  padding: 1.1vh 0;
+  background: linear-gradient(180deg,#ff6aa6,#ff4d94);
+  color: white;
+  border: none;
+  border-radius: 1vw;
+  font-size: 1.8vh;
+  cursor: pointer;
+  transition: 0.25s;
+  text-align: center;
+}
+
+#container button:hover {
+  transform: translateY(-0.2vh);
+  background: linear-gradient(180deg,#ff5b95,#ff3366);
+}
+
+#result {
+  margin-top: 1.6vh;
+  font-size: 1.8vh;
+  color: #ff3366;
+  font-weight: 700;
+  text-align: center;
+}
