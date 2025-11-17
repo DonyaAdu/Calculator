@@ -6,7 +6,8 @@ A lightweight and easy-to-use calculator that performs basic arithmetic operatio
 
 ## 📸 Screenshot
 
-!Calculator Screenshot.jpg)
+![Calculator Screenshot](https://i.postimg.cc/SQMw1z1M/photo22072748254-(1).jpg)
+
 
 
 ---
